@@ -39,7 +39,8 @@ defmodule Docomo.Mixfile do
       {:amqp, "~> 0.2.0-pre.4"}, # https://github.com/pma/amqp/issues/28
       {:briefly, "~> 0.3"},
       {:ex_aws, "~> 1.0"},
-      {:hackney, "~> 1.6"}
+      {:hackney, "~> 1.6"},
+      {:poison, "~> 3.1"}
     ]
   end
 end

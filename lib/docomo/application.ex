@@ -12,6 +12,7 @@ defmodule Docomo.Application do
       supervisor(DocomoWeb.Endpoint, []),
       # Start your own worker by calling: Docomo.Worker.start_link(arg1, arg2, arg3)
       # worker(Docomo.Worker, [arg1, arg2, arg3]),
+      worker(Docomo.Worker, []),
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
