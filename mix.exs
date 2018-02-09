@@ -40,7 +40,8 @@ defmodule Docomo.Mixfile do
       {:briefly, "~> 0.3"},
       {:ex_aws, "~> 1.0"},
       {:hackney, "~> 1.6"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:redix, ">= 0.0.0"}
     ]
   end
 end
